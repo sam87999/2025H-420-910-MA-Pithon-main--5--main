@@ -1,0 +1,19 @@
+[project]
+name = "pithon"
+version = "0.1.0"
+description = "Un interpréteur simple pour Python"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+pithon = "pithon.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.4.0",
+]

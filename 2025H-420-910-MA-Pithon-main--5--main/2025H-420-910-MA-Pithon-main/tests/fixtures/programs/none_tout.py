@@ -1,0 +1,12 @@
+# Test de Alexandrine Dubé
+print(None in [1, 2, 3])
+print(None or True)
+print(None and False)
+print(not None)
+print(None == 4)
+print(None != 4)
+print(None)
+print(None or None)
+print(None and None)
+print(None == None)
+print(None != None)
